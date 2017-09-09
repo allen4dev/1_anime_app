@@ -1,13 +1,19 @@
 import React from 'react';
+import { string } from 'prop-types';
 
-import src from './allen_walker.jpg';
+import './index.css';
 
-function Image() {
+function Image(props) {
   return (
-    <div className="Wrapper">
-      <img src={src} alt="allen walker from D.Gray-man" className="Image" />
+    <div className="Image">
+      <img src={props.src} alt={props.description} className="Image-photo" />
     </div>
   );
 }
+
+Image.propTypes = {
+  src: string.isRequired,
+  description: string.isRequired,
+};
 
 export default Image;

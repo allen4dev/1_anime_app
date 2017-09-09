@@ -1,0 +1,8 @@
+.Movie {
+  margin: 1em;
+}
+
+.Movie-link {
+  text-decoration: none;
+  color: var(--white);
+}

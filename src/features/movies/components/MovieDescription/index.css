@@ -1,0 +1,13 @@
+.MovieDescription {
+  padding: .5em;
+  background-color: var(--dark-light);
+}
+
+.MovieDescriptiontitle {
+  margin-bottom: .5em;
+}
+
+.MovieDescriptioninfo {
+  display: flex;
+  justify-content: space-between;
+}

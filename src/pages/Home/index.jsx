@@ -1,8 +1,15 @@
 import React from 'react';
 
+import MovieSection from './../../features/movies/components/MovieSection';
+
 function Home() {
   return (
-    <h1>Here comes the Home content</h1>
+    <div className="Home container">
+      <MovieSection />
+      <MovieSection />
+      <MovieSection />
+      <MovieSection />
+    </div>
   );
 }
 

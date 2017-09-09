@@ -2,7 +2,9 @@ import React from 'react';
 
 function Detail() {
   return (
-    <h1>Movie Detail</h1>
+    <div className="Detail container">
+      
+    </div>
   )
 }
 

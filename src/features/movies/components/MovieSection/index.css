@@ -1,0 +1,12 @@
+.MovieSection-movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MovieSection-movies .Movie {
+  width: calc((100% / 4) - 2em);
+}
+
+.MovieSection-title {
+  margin: 1em;
+}
