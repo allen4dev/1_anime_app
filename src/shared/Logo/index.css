@@ -1,0 +1,8 @@
+.Logo {
+  margin-right: 1em;
+}
+
+.Logo-link {
+  color: var(--white);
+  text-decoration: none;
+}

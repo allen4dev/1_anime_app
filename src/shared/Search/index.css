@@ -1,0 +1,12 @@
+.Search {
+  padding: .5em;
+  border-bottom: 1px solid gray;
+}
+
+.Search-input {
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 1.2em;
+  width: 100%;
+}

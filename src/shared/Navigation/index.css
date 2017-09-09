@@ -1,0 +1,11 @@
+.Navigation {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navigation-item {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}

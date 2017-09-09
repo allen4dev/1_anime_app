@@ -1,0 +1,15 @@
+.Header {
+  background-color: var(--dark-light);
+  color: var(--dark);
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-main {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

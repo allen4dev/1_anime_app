@@ -2,9 +2,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="Home">
-      <h1 className="Home-title">Animeflix</h1>
-    </div>
+    <h1>Here comes the Home content</h1>
   );
 }
 
