@@ -14,5 +14,8 @@
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "rules": {
+    "jsx-a11y/accessible-emoji": 1
   }
 }

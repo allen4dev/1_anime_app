@@ -1,0 +1,69 @@
+.Detail {
+  display: flex;
+  max-width: 1024px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Detail-movie {
+  flex-basis: 30%;
+}
+
+.Detail-content {
+  flex: 1;
+  margin: 1em;
+  color: var(--text);
+  align-self: center;
+}
+
+.Detail-about {
+  padding: 1em;
+}
+
+.Detail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Detail-stat {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Detail-stat:not(:last-child) {
+  margin-right: 2em;
+}
+
+.Detail-title {
+  color: var(--white);
+}
+
+.Detail-description {
+  padding: 1em 0;
+}
+
+.Detail-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 0;
+}
+
+.Detail-infoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3em 0;
+}
+
+.Detail-infoDescription {
+  flex-basis: 70%;
+  display: flex;
+}
+
+.Detail-infoDescriptionItem {
+  flex: 1;
+  /* text-align: center; */
+}

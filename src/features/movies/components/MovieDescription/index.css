@@ -1,13 +1,13 @@
 .MovieDescription {
-  padding: .5em;
+  padding: 0.5em;
   background-color: var(--dark-light);
 }
 
-.MovieDescriptiontitle {
-  margin-bottom: .5em;
+.MovieDescription-title {
+  margin-bottom: 0.5em;
 }
 
-.MovieDescriptioninfo {
+.MovieDescription-info {
   display: flex;
   justify-content: space-between;
 }

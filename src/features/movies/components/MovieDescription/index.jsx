@@ -11,7 +11,7 @@ function MovieDescription() {
         <span className="MovieDescription-year">1992</span>
       </div>
     </div>
-  )
+  );
 }
 
 export default MovieDescription;

@@ -1,0 +1,22 @@
+.Menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu-item {
+  flex: 1;
+  text-align: center;
+}
+
+.Menu-link {
+  color: var(--white);
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Menu-link:hover {
+  box-shadow: inset 0 -5px 0 var(--blue);
+}

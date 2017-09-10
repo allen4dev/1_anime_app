@@ -13,7 +13,7 @@ function Header() {
         <Logo />
         <Navigation />
       </div>
-      
+
       <Search />
     </header>
   );
