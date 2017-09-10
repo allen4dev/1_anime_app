@@ -1,20 +1,20 @@
 import React from 'react';
-import { element } from 'prop-types';
+import { element, string, shape } from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import Image from './../../../../shared/Image';
 
 import './index.css';
 
-function Movie({ children }) {
+function Movie(props) {
   return (
     <article className="Movie">
-      <Link className="Movie-link" to="/detail/1">
+      <Link className="Movie-link" to={`/detail/${props.id}`}>
         <Image
-          src="https://media.kitsu.io/anime/poster_images/15/small.jpg?1442610450"
-          description="Kenji Harima, a delinquent with a sizable reputation, is in a similar situation"
+          src={props.posterImage.small}
+          description={props.canonicalTitle}
         />
-        {children}
+        {props.children}
       </Link>
     </article>
   );
@@ -22,6 +22,11 @@ function Movie({ children }) {
 
 Movie.propTypes = {
   children: element.isRequired,
+  id: string.isRequired,
+  canonicalTitle: string.isRequired,
+  posterImage: shape({
+    small: string,
+  }).isRequired,
 };
 
 export default Movie;
